@@ -141,7 +141,17 @@ body {
     line-height: 20px;
     margin: 0;
     padding: 0;
-    text-decoration-line: underline;
+}
+
+.nav_lang__ru:hover {
+    text-shadow: #FFF 1px 0 10px;
+    color: #2A2C2F;
+}
+
+.nav_lang__ru:focus {
+    background: #2A2C2F;
+    color: #FFF;
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -162,6 +172,17 @@ body {
     line-height: 20px;
     margin: 0;
     padding: 0;
+}
+
+.nav_lang__en:hover {
+    text-shadow: #FFF 1px 0 10px;
+    color: #2A2C2F;
+}
+
+.nav_lang__en:focus {
+    background: #2A2C2F;
+    color: #FFF;
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
